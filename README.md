@@ -1,7 +1,7 @@
 ### Date created
 18/11/2019
 ### Project Title
-posting project 2 on github using git command
+posting my python project on github using git command
 
 ### Description
 studying git command by using bikeshare python project
