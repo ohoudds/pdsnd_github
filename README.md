@@ -1,5 +1,5 @@
 ### Date created
-11/18/2019
+18/11/2019
 ### Project Title
 posting project 2 on github using git command
 
