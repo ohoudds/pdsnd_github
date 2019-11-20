@@ -1,10 +1,9 @@
 ### Date created
 18/11/2019
 ### Project Title
-posting my python project on github using git command
-
+Posting My Python Project On Github Using Git Command
 ### Description
-studying git command by using bikeshare python project
+studying git command by posting bikeshare python project
 
 ### Files used
 bikeshare.py(project2) code file
@@ -14,5 +13,5 @@ readme file given by udacity
 ### Credits
 udacity commit message guidelines
 github help website
-ahmed alansari
-hussein bakheet
+Ahmed al-Ansari
+Hussein Bakheet
