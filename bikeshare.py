@@ -12,7 +12,7 @@ def get_filters():
     print ( 'Hello! Let\'s explore some US bikeshare data!' )
     city = input ( "\nPlease type city name: chicago , new york , washington\n" ).lower ()
     while city not in CITY_DATA.keys ():
-        city = input ( "City name is invalid! Please select one out (Chicago, New York, washington):\n" ).lower ()
+        city = input ( "City is name is invalid! Please input another name:\n" ).lower ()
     month = input ( "\nPlease Enter months from: january, february, march, april, may, june or all \n" ).title ()
     while month not in months:
         month = input ( "\nPlease Enter months from: january, february, march, april, may, june or all \n" ).title ()
