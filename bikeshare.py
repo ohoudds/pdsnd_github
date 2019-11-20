@@ -120,12 +120,19 @@ def user_stats(df , city):
         print ( "The earliest birth year is: {}".format (
             str ( int ( df [ 'Birth Year' ].min () ) ) )
         )
+        print ( "The oldest bikesharer age is: {}".format (
+        str ( int ( 2019 - df [ 'Birth Year' ].min () ) ) )
+        )
         print ( "The latest birth year is: {}".format (
             str ( int ( df [ 'Birth Year' ].max () ) ) )
         )
         print ( "The most common birth year is: {}".format (
             str ( int ( df [ 'Birth Year' ].mode ().values [ 0 ] ) ) )
         )
+
+
+
+
     print ( "\nThis took %s seconds." % (time.time () - start_time) )
     print ( '-' * 40 )
 
