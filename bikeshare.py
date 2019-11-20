@@ -132,6 +132,9 @@ def user_stats(df , city):
         print ( "The most common birth year is: {}".format (
             str ( int ( df [ 'Birth Year' ].mode ().values [ 0 ] ) ) )
         )
+        print ( "The most common birth year is: {}".format (
+            str ( int (2019 - df [ 'Birth Year' ].mode ().values [ 0 ] ) ) )
+        )
 
 
 
